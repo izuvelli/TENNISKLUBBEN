@@ -1,0 +1,21 @@
+.parent{
+    position: absolute;
+    background-color: black;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    width: 100%;
+}
+.child{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    transition: width 1s ease-in-out;
+    
+
+}
+.parent:hover .child{
+    width: 25%;
+   
+}
