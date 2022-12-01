@@ -1,0 +1,19 @@
+.parent{
+    position: absolute;
+    background-color: whitesmoke;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    width: 1920px;
+}
+.child{
+    background-color: #cbe355;
+    height: 100%;
+    width: 100%;
+    transition: width 1s ease-in-out;
+}
+.parent:hover.child{
+    width: 25%;
+   
+}
