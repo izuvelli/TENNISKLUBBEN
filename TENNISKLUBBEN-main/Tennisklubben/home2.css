@@ -1,5 +1,6 @@
 .body {
     margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .navbar{
     background-color: whitesmoke;
@@ -18,7 +19,7 @@
     transition: width 1s ease-in-out;
 }
 .navbar:hover .kullisser{
-    width: 300px;
+    width: 200px;
     
 }
 .button{
@@ -30,23 +31,42 @@
     position: absolute;
     top: 0;
     left:0;
-    
-    
-    
 }
-.table2{
-    position: absolute;
-    top: 0;
-    right: 0;
 
-}
 .tdmeny1{
 padding:70px 50px 0 80px;
 
 }
-.tdmeny2{
-    padding:70px 80px 0 200px;
+
+.anmälan{
+    position: absolute;
+    width:100vw;
+    display: inline-block;
+    top:55px;
+    right:310px;
+    text-align: right;
+    
 }
+button{
+    cursor:pointer;
+    margin: 4px 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.Knapp1{
+    background-color: transparent;
+    border: none;
+    color: #dded3d;
+    
+}
+.Knapp2{
+    border-radius: 20px;
+    border:none;
+    background-color: #dded3d;
+    color: white;
+}
+
 Footer{
     background-color:whitesmoke;
     position: absolute;
