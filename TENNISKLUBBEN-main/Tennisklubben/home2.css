@@ -47,3 +47,11 @@ padding:70px 50px 0 80px;
 .tdmeny2{
     padding:70px 80px 0 200px;
 }
+Footer{
+    background-color:whitesmoke;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height:100px
+}
